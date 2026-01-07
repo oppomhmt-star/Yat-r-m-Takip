@@ -1,0 +1,63 @@
+# ============================================
+# ANA KÜTÜPHANELER (En Güncel Sürümler)
+# ============================================
+
+# GUI Framework
+customtkinter
+darkdetect
+
+# Veri İşleme
+pandas
+numpy
+
+# Grafik ve Görselleştirme
+matplotlib
+mplfinance
+squarify
+plotly
+
+# Finansal Veri API'leri
+# Not: yfinance en son sürüm yüklenecek (Hata çözümü için kritik)
+yfinance
+finnhub-python
+twelvedata
+isyatirimhisse
+
+# HTTP İstekleri
+requests
+curl-cffi
+urllib3
+certifi
+
+# Güvenlik ve Şifreleme
+cryptography
+PyJWT
+
+# Excel İşlemleri
+openpyxl
+
+# Veritabanı
+peewee
+
+# Web Scraping
+beautifulsoup4
+soupsieve
+
+# Yardımcı Kütüphaneler
+python-dateutil
+pytz
+tzdata
+pytimeparse
+multitasking
+websockets
+
+# Sistem ve Platform
+platformdirs
+Pillow
+
+# ============================================
+# PLATFORM-SPECIFIC (Windows)
+# ============================================
+win10toast; sys_platform == 'win32'
+winotify; sys_platform == 'win32'
+plyer; sys_platform == 'win32'
